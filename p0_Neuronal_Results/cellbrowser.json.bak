@@ -1,0 +1,30 @@
+{
+  "name": "p0_Neuronal_Results",
+  "shortLabel": "p0_Neuronal_Results",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "leiden",
+  "labelField": "leiden",
+  "enumFields": [
+    "leiden"
+  ],
+  "coords": [
+    {
+      "file": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    },
+    {
+      "file": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/pca_coords.tsv",
+      "shortLabel": "pca"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "inDir": ""
+}
