@@ -11,5 +11,5 @@
     "UMAP.coords.tsv.gz",
     "pca.coords.tsv.gz"
   ],
-  "matrixFile": "/home/kparakul/cb-output/cb0_Neuronal/p0_Neuronal_Results/exprMatrix.tsv.gz"
+  "matrixFile": "/home/kparakul/cb-output/cbp0_neuronal/p0_Neuronal_Results/exprMatrix.tsv.gz"
 }

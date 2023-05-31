@@ -2,42 +2,42 @@
   "fileVersions": {
     "inMeta": {
       "fname": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/meta.tsv",
-      "md5": "ada75f93fc",
-      "size": 386326,
-      "mtime": "2022-12-10 01:26:21"
+      "md5": "aef3ef0c9d",
+      "size": 379619,
+      "mtime": "2023-05-31 10:21:19"
     },
     "outMeta": {
-      "fname": "/home/kparakul/cb-output/cb0_Neuronal/p0_Neuronal_Results/meta.tsv",
-      "md5": "0977fce62c",
-      "size": 293058,
-      "mtime": "2022-12-10 01:45:37"
+      "fname": "/home/kparakul/cb-output/cbp0_neuronal/p0_Neuronal_Results/meta.tsv",
+      "md5": "19b9cc8a36",
+      "size": 287961,
+      "mtime": "2023-05-31 10:23:33"
     },
     "inMatrix": {
       "fname": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/exprMatrix.tsv.gz",
-      "md5": "25a861f350",
-      "size": 30083225,
-      "mtime": "2022-12-10 01:26:16"
+      "md5": "c22dacbf21",
+      "size": 29518665,
+      "mtime": "2023-05-31 10:21:13"
     },
     "outMatrix": {
-      "fname": "/home/kparakul/cb-output/cb0_Neuronal/p0_Neuronal_Results/exprMatrix.tsv.gz",
-      "md5": "25a861f350",
-      "size": 30083225,
-      "mtime": "2022-12-10 01:45:38"
+      "fname": "/home/kparakul/cb-output/cbp0_neuronal/p0_Neuronal_Results/exprMatrix.tsv.gz",
+      "md5": "c22dacbf21",
+      "size": 29518665,
+      "mtime": "2023-05-31 10:23:34"
     },
     "desc": {
       "fname": "desc.conf",
-      "md5": "a116402afc",
+      "md5": "b644be3941",
       "size": 2614,
-      "mtime": "2022-12-10 01:26:21"
+      "mtime": "2023-05-31 10:21:19"
     },
     "conf": {
       "fname": "/home/kparakul/cellBrowser/neuronal/p0_Neuronal_Results/cellbrowser.conf",
       "md5": "2dc4804a09",
       "size": 847,
-      "mtime": "2022-12-10 01:27:01"
+      "mtime": "2023-05-31 10:21:51"
     }
   },
-  "sampleCount": 4052,
+  "sampleCount": 3982,
   "matrixWasFiltered": false,
   "metaFields": [
     {
@@ -45,32 +45,32 @@
       "label": "cellId",
       "type": "uniqueString",
       "maxSize": 18,
-      "diffValCount": 4052,
-      "md5": "46a958bed8"
+      "diffValCount": 3982,
+      "md5": "339f926a36"
     },
     {
       "name": "ExpressedGenes",
       "label": "Expressed Genes",
       "arrType": "float32",
       "type": "int",
-      "diffValCount": 2087,
-      "md5": "97830bd631"
+      "diffValCount": 2076,
+      "md5": "b5662f4483"
     },
     {
       "name": "n_genes_by_counts",
       "label": "n_genes_by_counts",
       "arrType": "float32",
       "type": "int",
-      "diffValCount": 2088,
-      "md5": "e2e876621c"
+      "diffValCount": 2078,
+      "md5": "c20171035c"
     },
     {
       "name": "total_counts",
       "label": "total_counts",
       "arrType": "float32",
       "type": "float",
-      "diffValCount": 2878,
-      "md5": "2b68da9738"
+      "diffValCount": 2848,
+      "md5": "abe24baca7"
     },
     {
       "name": "doublet_scores",
@@ -78,7 +78,7 @@
       "arrType": "float32",
       "type": "float",
       "diffValCount": 100,
-      "md5": "7fce0ed6ad"
+      "md5": "31b92c862d"
     },
     {
       "name": "leiden",
@@ -87,44 +87,40 @@
       "valCounts": [
         [
           "0",
-          1131
+          1243
         ],
         [
           "1",
-          972
+          1230
         ],
         [
           "2",
-          461
+          452
         ],
         [
           "3",
-          444
+          382
         ],
         [
           "4",
-          385
+          260
         ],
         [
           "5",
-          313
+          190
         ],
         [
           "6",
-          191
+          137
         ],
         [
           "7",
-          85
-        ],
-        [
-          "8",
-          70
+          88
         ]
       ],
       "arrType": "Uint8",
-      "diffValCount": 9,
-      "md5": "4c70c25b00"
+      "diffValCount": 8,
+      "md5": "0a592f2f2d"
     },
     {
       "name": "cluster_labels",
@@ -162,15 +158,11 @@
         [
           "C7_p0_neuronal",
           85
-        ],
-        [
-          "C8_p0_neuronal",
-          70
         ]
       ],
       "arrType": "Uint8",
-      "diffValCount": 9,
-      "md5": "5ed08fba98"
+      "diffValCount": 8,
+      "md5": "92fb861d94"
     }
   ],
   "matrixArrType": "Float32",
@@ -179,7 +171,7 @@
     {
       "name": "coords_0",
       "shortLabel": "UMAP",
-      "md5": "c921499612",
+      "md5": "9c7570dc8a",
       "minX": 0,
       "maxX": 65535,
       "minY": 0,
@@ -191,7 +183,7 @@
     {
       "name": "coords_1",
       "shortLabel": "pca",
-      "md5": "d69677ccad",
+      "md5": "903e303e8e",
       "minX": 0,
       "maxX": 65535,
       "minY": 0,
@@ -340,7 +332,7 @@
   "name": "p0_Neuronal_Results",
   "shortLabel": "p0_Neuronal_Results",
   "defColorField": "leiden",
-  "firstBuildTime": "2022-12-09T17:45:51.372308",
-  "lastBuildTime": "2022-12-09T17:45:51.372336",
-  "md5": "61590bad63"
+  "firstBuildTime": "2023-05-31T03:23:52.877789",
+  "lastBuildTime": "2023-05-31T03:23:52.877834",
+  "md5": "66e795ce5d"
 }
