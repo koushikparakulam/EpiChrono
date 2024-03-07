@@ -1,6 +1,0 @@
-exprMatrix.tsv.gz
-meta.tsv
-dataset.json
-desc.json
-UMAP.coords.tsv.gz
-pca.coords.tsv.gz
